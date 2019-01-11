@@ -17,11 +17,37 @@ public class Person implements Serializable {
 		this.age = age;
 		this.isActive = isActive;
 	}
+	
+	public int getId()
+	{
+		return id;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public String getlastName()
+	{
+		return lastName;
+	}
+	
+	public int getAge()
+	{
+		return age;
+	}
+	
+	public boolean getActive()
+	{
+		return isActive;
+	}
 
 	@Override
 	public String toString() {
 		return "Person [id=" + id + ", name=" + name + ", lastName=" + lastName + ", age=" + age + ", isActive="
 				+ isActive + "]";
 	}
+	
 	
 }
